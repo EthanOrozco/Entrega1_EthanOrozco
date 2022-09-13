@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+
+{% block title %}
+Busqueda Camada
+{% endblock %}
+
+{% block ContenidoQueCambia %}
+
+    {% for curso in cursos %}
+        el nombre del curso es {{ curso.nombre }} con la camada {{ curso.camada }}
+    <br>
+    {% endfor %}
+
+{% endblock %}  
