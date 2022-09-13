@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+
+{% block title %}
+Busqueda Camada
+{% endblock %}
+
+{% block ContenidoQueCambia %}
+
+    {% for familiar in nombres %}
+        el nombre del familiar es {{ familiar.nombre }} y tiene {{ familiar.edad }}
+    <br>
+    {% endfor %}
+
+{% endblock %}

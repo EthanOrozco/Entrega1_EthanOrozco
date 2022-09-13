@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+
+{% block title %}
+Busqueda mascota
+{% endblock %}
+
+{% block ContenidoQueCambia %}
+
+    {% for mascota in mascotas %}
+    el animal de la mascota es {{ mascota.animal }} y tiene {{ mascota.edad }}
+    <br>
+    {% endfor %}
+
+{% endblock %}

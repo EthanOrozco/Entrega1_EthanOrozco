@@ -5,7 +5,6 @@ from django.db import models
 
 class Familiar(models.Model):
     nombre = models.CharField(max_length=30)
-    cumpleaños = models.DateField()
     edad = models.IntegerField()
 
 class Curso(models.Model):
@@ -13,6 +12,5 @@ class Curso(models.Model):
     nombre = models.CharField(max_length=10)
 
 class Mascotas(models.Model):
+    animal = models.CharField(max_length=50)
     edad = models.IntegerField()
-    nombre = models.CharField(max_length=50)
-    raza = models.CharField(max_length=50)
