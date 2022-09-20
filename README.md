@@ -2,7 +2,7 @@
 Entrega1_EthanOrozco
 agregué 3 modelos que están en el siguiente orden o urls al correr el server de la entrega
 
-(TODAS LAS URL CON /AppCoder por delante)
+(Tpdas las url llevan /AppCoder/ por delante)
 
 MASCOTAS
 'mascota_formulario/' <-- aquí se añade algo a la DB
